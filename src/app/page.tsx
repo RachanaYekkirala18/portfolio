@@ -51,7 +51,7 @@ export default function Portfolio() {
   const skillsRef = useRef<HTMLDivElement>(null);
   const experienceRef = useRef<HTMLDivElement>(null);
   const educationRef = useRef<HTMLDivElement>(null);
-  const writingRef = useRef<HTMLDivElement>(null);
+ 
   const contactRef = useRef<HTMLDivElement>(null);
 
   const sections: SectionMap = {
@@ -61,7 +61,7 @@ export default function Portfolio() {
     skills: skillsRef,
     experience: experienceRef,
     education: educationRef,
-    writing: writingRef,
+   
     contact: contactRef,
   };
 
